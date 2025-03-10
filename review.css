@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Reviews - MK Hospitals</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <h1>Patient Reviews</h1>
+            <p>Real stories from our patients</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="review">
+            <div class="review-header">
+                <img src="patient1.jpg" alt="Patient 1">
+                <div class="review-info">
+                    <h2>John Doe</h2>
+                    <p>Cardiology Patient</p>
+                    <p class="review-date">July 1, 2024</p>
+                </div>
+            </div>
+            <div class="review-body">
+                <p>"I received exceptional care at MK Hospitals. The doctors and staff were attentive and compassionate. I highly recommend their cardiology department!"</p>
+            </div>
+        </div>
+
+        <div class="review">
+            <div class="review-header">
+                <img src="patient2.jpg" alt="Patient 2">
+                <div class="review-info">
+                    <h2>Jane Smith</h2>
+                    <p>Orthopedics Patient</p>
+                    <p class="review-date">June 15, 2024</p>
+                </div>
+            </div>
+            <div class="review-body">
+                <p>"I had a great experience with MK Hospitals' orthopedics team. The surgery was successful, and the recovery care was excellent. Thank you!"</p>
+            </div>
+        </div>
+
+        <div class="review">
+            <div class="review-header">
+                <img src="patient3.jpg" alt="Patient 3">
+                <div class="review-info">
+                    <h2>Alice Johnson</h2>
+                    <p>Oncology Patient</p>
+                    <p class="review-date">May 25, 2024</p>
+                </div>
+            </div>
+            <div class="review-body">
+                <p>"The oncology team at MK Hospitals provided me with comprehensive care during my treatment. I am grateful for their expertise and support."</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

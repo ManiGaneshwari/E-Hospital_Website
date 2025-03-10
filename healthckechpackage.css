@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    font-size: 28px;
+    background-image:linear-gradient(rgba(77, 131, 124, 0.5),rgba(218, 174, 118, 0.5),rgba(233, 120, 27, 0.5));
+   
+    
+}
+
+.container {
+    max-width: 1900px;
+    margin: 20px auto;
+    padding: 20px;
+    /* background-image:linear-gradient(rgba(77, 131, 124, 0.5),rgba(218, 174, 118, 0.5),rgba(233, 120, 27, 0.5)); */
+    background-color: rgba(255,255,255,0.0);
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.card {
+    background-color: rgba(77, 131, 124, 0.5);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    color: #1d63ad;
+}
+
+.card p {
+    color: rgb(5, 5, 5);
+}
+
+.card ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.card ul li {
+    background-color: #eef0f0;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.card button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #147dd3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.card button:hover {
+    background-color: #0056b3;
+}
+/* navbar */
+#logo{
+    height:150px;
+    width:250px;
+    text-align: center;
+    font-size: 70px;
+    background-image: url("logo(1).png");
+    background-size: cover;
+
+}
+
+li{
+    display:inline;
+    margin-right:50px;
+}
+#nav-bar{
+    display:flex;
+    font-size: 25px;
+    height:150px;
+    background-color: rgba(5, 5, 5, 0.5);
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+#log{
+    margin-right:500px;
+    font-size: 35px;
+
+}
+.an{
+    color:white;
+    text-decoration: none;
+}
+/* footer */
+.footer{
+    height:500px;
+    /* background-color:#466060;
+    opacity:0.75; */
+    /* background-color:#08415C; */
+    background-color: rgba(255,255,255,0.5);
+    display:flex;
+    padding:50px 0;
+    justify-content:space-around;
+    color:rgb(27, 16, 3) ;
+    font-weight: 35em;
+   font-size: 20px;
+}
+.copyright{
+    /* background-color: #388697; */
+    opacity:0.95;
+    height:40px;
+}
+.copyright
+{   padding:20px 0;
+    display: flex;
+    justify-content: center;
+    color: bisque;
+}
+p{
+    margin-bottom: 15px;;
+}
+.a{
+    text-decoration: none;
+    color:rgb(2, 2, 2) ;
+    font-size: larger;
+    display: block;
+}
